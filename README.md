@@ -12,9 +12,9 @@ So if for some reason you are reading this, first: you must be lost, second: wel
 Instructions from Udacity:
 
 Modify the crawl_web procedure to take a second parameter,
-# max_depth, that limits the depth of the search.  We can 
-# define the depth of a page as the number of links that must
-# be followed to reach that page starting from the seed page,
-# that is, the length of the shortest path from the seed to
-# the page.  No pages whose depth exceeds max_depth should be
-# included in the crawl
+max_depth, that limits the depth of the search.  We can 
+define the depth of a page as the number of links that must
+be followed to reach that page starting from the seed page,
+that is, the length of the shortest path from the seed to
+the page.  No pages whose depth exceeds max_depth should be
+included in the crawl
